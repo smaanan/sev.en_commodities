@@ -241,6 +241,10 @@ w = interactive(filter_function, bookcode=books_dropdown, cpartycode=counter_dro
 ```
 will make the function interactive, i.e. every time the user selects a different value for `Book`, `Counterpart` and date, the function updates the displayed result.
 
+## Note
+
+You might need to modify the directory of the parquet file in the notebook in order to load the data frame.
+
 ### Warning
 
 Whenever I open the notebook and run it for the first time, an error appears, which I could not solve and for which I don't know the cause, however when I run the functions again by choosing different values in the widgets the error disappears. This is strange because when I run the functions outside the widget no error appears.
