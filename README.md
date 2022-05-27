@@ -241,6 +241,15 @@ w = interactive(filter_function, bookcode=books_dropdown, cpartycode=counter_dro
 ```
 will make the function interactive, i.e. every time the user selects a different value for `Book`, `Counterpart` and date, the function updates the displayed result.
 
+## Demo
+
+Below is a demo of the jupyter notebook
+
+
+https://user-images.githubusercontent.com/22676439/170618884-e9bd3b20-40d8-4a09-acfe-30f3864515cb.mp4
+
+
+
 ## Note
 
 You might need to modify the directory of the parquet file in the notebook in order to load the data frame.
