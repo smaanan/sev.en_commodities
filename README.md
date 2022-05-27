@@ -1,4 +1,4 @@
-# Sev.en Commodities Project
+# Sev.en Commodities Case Study
 ## Interactive Dashboard
 The python code I am about to describe allows to create a dashboard that displays the aggregated volume of each combination of commodity type and period in time. After running the code below, the user should obtain a data frame that changes interactively according to the input values the user chooses.
 
